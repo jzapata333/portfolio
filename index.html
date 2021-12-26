@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-    <link rel="icon" type="img/png" href="img/techis-logo.png">
+    <link rel="icon" type="img/png" href="img/favicon.ico">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
-    <title>Javier Zapata Portfolio</title>
+    <title>Javier Zapata | Creative Developer</title>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
@@ -19,7 +19,7 @@
           </button>
         
       <!--<div class="collapse navbar-collapse" id="navbarSupportedContent"></div> -->
-            <div class="collapse navbar-collapse" id="navbarToggler">    <!--id might be written wrong-->
+            <div class="collapse navbar-collapse" id="navbarToggler">
             <ul class="navbar-nav ms-auto mb-2">
               <li class="nav-item">
                 <a class="nav-link font-black" href="#about">About </a>
@@ -31,6 +31,9 @@
           </div>
         </div>
       </nav>
+      <video autoplay muted loop id="background-video">
+        <source src="video/coding.MP4" type="video/mp4"/>
+      </video>
     <div id="about">
         <h2><span class="font-primary">A</span>bout</h2>
         <img src="img/javier-profile.png" alt="Javier-Zapata">
@@ -51,19 +54,24 @@
     <div class="card mb-3">
       <div class="row">
         <div class="col-md-4">
-          <img src="img/project-netflix.png" class="img-fluid rounded-start" alt="Netflix Project">
+          <video autoplay controls muted loop width="100%">
+            <source src="video/synamatic.MP4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
         </div>
         <div class="col-md-8">
           <div class="card-body">
-            <h5 class="card-title">Netflix Clone</h5>
-            <p class="card-text">This is a Netflix-based project using HTML / CSS / JS</p>
-            <p class="card-text"><small class="text-muted">
-              Test Login Account <br>
-              Email: test@gmail.com <br>
-              Password: 1234
-            </small></p>
-            <a href="#" target="_blank" class="btn btn-secondary">Website Link</a>
-            <a href="#" target="_blank" class="btn btn-secondary">Github Link</a>
+            <h5 class="card-title">Synamatic | Movie Reviews</h5>
+            <p class="card-text">
+              This is a Netflix-based project where you can see ratings for newly released and upcoming movies,
+              with links included to check out the trailers to the movies you're interested in. In this project 
+              you will find a categories directory, search functionality, and the ability to save your favorites
+              as well as movies you have yet to see.<br /><br />
+
+              This project is built using React-Redux and Django API.
+            </p>
+            <a href="https://symantic-frontend.herokuapp.com/" target="_blank" class="btn btn-secondary">Website Link</a>
+            <a href="https://github.com/Synamatic7/symantic" target="_blank" class="btn btn-secondary">Github Link</a>
           </div>
         </div>
       </div>

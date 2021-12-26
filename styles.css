@@ -25,21 +25,45 @@ h2 {
   font-size: 23px;
   font-weight: bold;
   margin-bottom: 20px;
+  padding-top: 30px;
 }
 
 a.font-black {
   color: #000 !important;
 }
+
+/**
+
+NAV
+
+**/
+
+.navbar {
+  background: #fff;
+}
+
 /**
 
 ABOUT
 
 **/
 
+#background-video {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
 #about {
+  background: #fff;
+  border-radius: 5px;
   margin: 60px auto;
   max-width: 400px;
   text-align: center;
+  padding-bottom: 20px;
 }
 
 #about img {
