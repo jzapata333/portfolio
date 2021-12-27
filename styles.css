@@ -191,8 +191,15 @@ PROJECTS
 }
 
 @media screen and (max-width: 550px) {
+  #about {
+    padding: 20px;
+    width: 329px;
+  }
   #project {
     padding-top: 70px;
+  }
+  .up-arrow {
+    right: 2.5% !important;
   }
 }
 
@@ -222,8 +229,10 @@ a.social:hover::before {
 }
 
 .up-arrow {
+  cursor: pointer;
   position: fixed;
   bottom: 3%;
-  right: 3%;
+  right: 2.3%;
   width: 5%;
+  z-index: -2;
 }
