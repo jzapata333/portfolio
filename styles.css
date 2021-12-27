@@ -42,6 +42,47 @@ NAV
   background: #fff;
 }
 
+nav li::before {
+  content: "";
+  display: block;
+  height: 5px;
+  background-color: #00abae;
+  position: absolute;
+  bottom: 21px;
+  width: 0%;
+  transition: all ease-in-out 250ms;
+}
+
+nav li:hover::before {
+  width: 4.7%;
+}
+
+.proj::before {
+  content: "";
+  display: block;
+  height: 5px;
+  background-color: #00abae;
+  position: absolute;
+  bottom: 21px;
+  width: 0%;
+  transition: all ease-in-out 250ms;
+}
+
+.proj:hover::before {
+  width: 5.4%;
+}
+
+.javier {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 200% auto;
+  color: #000;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  animation: gradientBG 2.5s linear infinite;
+}
+
 /**
 
 ABOUT
@@ -91,6 +132,30 @@ ABOUT
 #about .email {
   font-size: 14px;
   margin-top: 14px;
+  text-decoration: none;
+}
+
+.colors:hover {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 200% auto;
+  color: #000;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  animation: gradientBG 2.5s linear infinite;
+}
+
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 #about .icons {
@@ -123,4 +188,42 @@ PROJECTS
 
 #project .card-title {
   font-weight: bold;
+}
+
+@media screen and (max-width: 550px) {
+  #project {
+    padding-top: 70px;
+  }
+}
+
+.footer {
+  margin: 20px;
+}
+
+.footer a {
+  color: #000;
+  text-decoration: none;
+  padding: 20px;
+}
+
+a.social::before {
+  content: "";
+  display: block;
+  height: 5px;
+  background-color: #00abae;
+  position: absolute;
+  bottom: 23px;
+  width: 0%;
+  transition: all ease-in-out 250ms;
+}
+
+a.social:hover::before {
+  width: 5%;
+}
+
+.up-arrow {
+  position: fixed;
+  bottom: 3%;
+  right: 3%;
+  width: 5%;
 }
