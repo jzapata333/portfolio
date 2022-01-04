@@ -204,16 +204,17 @@ PROJECTS
 }
 
 .footer {
-  margin: 20px;
+  margin: 30px;
 }
 
 .footer a {
   color: #000;
+  cursor: pointer;
   text-decoration: none;
   padding: 20px;
 }
 
-a.social::before {
+footer a::before {
   content: "";
   display: block;
   height: 5px;
@@ -224,7 +225,7 @@ a.social::before {
   transition: all ease-in-out 250ms;
 }
 
-a.social:hover::before {
+footer a:hover::before {
   width: 5%;
 }
 
