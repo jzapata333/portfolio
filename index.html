@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link rel="icon" type="img/png" href="img/favicon.ico">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <title>Javier Zapata | Creative Developer</title>
 </head>
@@ -22,11 +25,17 @@
             <div class="collapse navbar-collapse" id="navbarToggler">
             <ul class="navbar-nav ms-auto mb-2">
               <li class="nav-item">
-                <a class="nav-link font-black about" href="#about">About</a>
+                <a class="nav-link font-black about ab" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link font-black skill sk" href="#skill">Skills</a>
               </li>
               <li class="nav-item">
                   <a class="nav-link font-black proj" href="#project">Projects</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link font-black cont" href="#contact">Contact</a>
+            </li>
             </ul>
           </div>
         </div>
@@ -39,7 +48,7 @@
         <img src="img/javier-profile2.jpeg" alt="Javier-Zapata">
         <div class="name">Javier Zapata</div>
         <div class="vocation">Web Developer | UX/UI Designer</div>
-        <div class="skills">HTML / CSS / Javascript / React.js / Redux / Python / Django / Express.js / AWS(basics) / Docker(basics)</div>
+        <!-- <div class="skills">HTML / CSS / Javascript / React.js / Redux / Python / Django / Express.js / AWS(basics) / Docker(basics)</div> -->
         <p>Solution-driven developer adept at building products, meeting high standards for web design and user experience</p>
         <a class="email colors" href="mailto:javier.zapata333@gmail.com">Let's get in touch</a><span>&#128236;</span>
     <div class="icons">
@@ -49,7 +58,59 @@
       <a href="https://www.twitter.com/jz333_/" target="_blank"><i class="bi bi-twitter ms-3 colors"></i></a>
     </div>
   </div>
-  
+
+  <div id="skill">
+    <h2 id="skills"><span class="font-primary skills">S</span>kills</h2>
+    <div class="skills-row">
+      <div class="skills-item skills-item-html">
+        <img src="img/skills/html.png" alt="html-logo">
+        <div class="skills-item-name">HTML</div>
+      </div>
+      <div class="skills-item skills-item-react">
+        <img src="img/skills/react.png" alt="react-logo">
+        <div class="skills-item-name">REACT</div>
+      </div>
+    </div>
+    <div class="skills-row">
+      <div class="skills-item skills-item-css">
+        <img src="img/skills/css.png" alt="css-logo">
+        <div class="skills-item-name">CSS</div>
+      </div>
+      <div class="skills-item skills-item-redux">
+        <img src="img/skills/redux.png" alt="redux-logo">
+        <div class="skills-item-name">REDUX</div>
+      </div>
+      <div class="skills-item skills-item-git">
+        <img class="skill-img" src="img/skills/git.png" alt="git-logo">
+        <div class="skills-item-name">GIT</div>
+      </div>
+    </div>
+    <div class="skills-row">
+      <div class="skills-item skills-item-javascript">
+        <img src="img/skills/js.png" alt="javascript-logo">
+        <div class="skills-item-name">JAVASCRIPT</div>
+      </div>
+      <div class="skills-item skills-item-nodejs">
+        <img src="img/skills/node.png" alt="nodejs-logo">
+        <div class="skills-item-name">NODE.JS</div>
+      </div>
+      <div class="skills-item skills-item-aws">
+        <img src="img/skills/aws.png" alt="aws-logo">
+        <div class="skills-item-name">AWS(Basics)</div>
+      </div>
+    </div>
+    <div class="skills-row">
+      <div class="skills-item skills-item-python">
+        <img src="img/skills/python.png" alt="python-logo">
+        <div class="skills-item-name">PYTHON</div>
+      </div>
+      <div class="skills-item skills-item-django">
+        <img src="img/skills/django.png" alt="django-logo">
+        <div class="skills-item-name">DJANGO</div>
+      </div>
+    </div>
+  </div>
+
   <div id="project">
     <h2><span class="font-primary projects">P</span>rojects</h2>
     <div class="card mb-3">
@@ -71,8 +132,9 @@
 
               <span style="font-weight: bold;">Skills used: </span>This project is built using React-Redux and Django API.
             </p>
-            <a href="https://symantic-frontend.herokuapp.com/" target="_blank" class="btn btn-secondary">Website Link</a>
-            <a href="https://github.com/Synamatic7/symantic" target="_blank" class="btn btn-secondary">Github Link</a>
+            <a href="https://symantic-frontend.herokuapp.com/" target="_blank" class="project-btn">Live App</a>
+
+            <a href="https://github.com/Synamatic7/symantic" target="_blank" class="project-btn">Learn More</a>
           </div>
         </div>
       </div>
@@ -102,8 +164,8 @@
               Password: 1234
             </small>
             </p>
-            <a href="https://frontend-dreamhome-jz333.herokuapp.com/" target="_blank" class="btn btn-secondary">Website Link</a>
-            <a href="https://github.com/jzapata333/DreamHouse" target="_blank" class="btn btn-secondary">Github Link</a>
+            <a href="https://frontend-dreamhome-jz333.herokuapp.com/" target="_blank" class="project-btn">Live App</a>
+            <a href="https://github.com/jzapata333/DreamHouse" target="_blank" class="project-btn">Learn More</a>
           </div>
         </div>
       </div>
@@ -125,13 +187,31 @@
               design and functionality of the official Twitter application. <br /><br /> 
               <span style="font-weight: bold;">Skills used: </span>Django/HTML/CSS/Cloudinary.
             </p>
-            <a href="https://twitterclone-jz333.herokuapp.com/" target="_blank" class="btn btn-secondary">Website Link</a>
-            <a href="https://github.com/jzapata333/Twitterclone" target="_blank" class="btn btn-secondary">Github Link</a>
+            <a href="https://twitterclone-jz333.herokuapp.com/" target="_blank" class="project-btn">Live App</a>
+            <a href="https://github.com/jzapata333/Twitterclone" target="_blank" class="project-btn">Learn More</a>
           </div>
         </div>
       </div>
     </div>
   </div>
+  <section id="contact">
+    <h2><span class="font-primary contact">C</span>ontact</h2>
+    <p>Have a question or want to work together? Leave your details
+      and I'll get back to you as soon as possible.
+    </p>
+    <div class="contact-form">
+      <form id="contact-form" method="post" action="contact-form-handler.php">
+        <input name="name" type="text" class="form-control shadow-none" placeholder="Name">
+        <br>
+        <input name="email" type="email" class="form-control shadow-none" placeholder="Email">
+        <br>
+        <textarea name="message" class="form-control shadow-none" placeholder="Message" row="4" required></textarea>
+        <br>
+        <a class="project-btn"><button type="submit" name="submit">Submit</button></a>
+        <!-- <input type="submit" class="project-btn" value="Submit"> -->
+      </form>
+    </div>
+  </section>
   <footer class="footer">
     <a class="top" href="#"><img class="up-arrow" src="img/uparrow.png"/></a>
   </footer>
