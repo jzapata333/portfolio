@@ -55,8 +55,8 @@ NAV
   height: 5px;
   background-color: #00abae;
   position: absolute;
-  bottom: 21px;
-  left: 910px;
+  bottom: 33%;
+  left: 71.85%;
   width: 0%;
   transition: all ease-in-out 250ms;
 }
@@ -71,8 +71,8 @@ NAV
   height: 5px;
   background-color: #00abae;
   position: absolute;
-  bottom: 21px;
-  left: 975px;
+  bottom: 33%;
+  left: 77.1%;
   width: 0%;
   transition: all ease-in-out 250ms;
 }
@@ -87,8 +87,8 @@ NAV
   height: 5px;
   background-color: #00abae;
   position: absolute;
-  bottom: 21px;
-  left: 1032.5px;
+  bottom: 33%;
+  left: 81.6%;
   width: 0%;
   transition: all ease-in-out 250ms;
 }
@@ -103,8 +103,8 @@ NAV
   height: 5px;
   background-color: #00abae;
   position: absolute;
-  bottom: 21px;
-  left: 1114px;
+  bottom: 33%;
+  left: 88.05%;
   width: 0%;
   transition: all ease-in-out 250ms;
 }
@@ -315,9 +315,12 @@ PROJECTS
   background-color: #000;
 }
 
+.card {
+  transition: transform 0.2s, opacity 1.2s;
+}
+
 .card:hover {
   transform: scale(1.05);
-  transition: transform 0.2s, opacity 1.2s;
 }
 
 .project-btn {
