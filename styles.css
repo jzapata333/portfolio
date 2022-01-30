@@ -187,6 +187,20 @@ ABOUT
   text-decoration: none;
 }
 
+#about button {
+  background: none;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+  outline: inherit;
+  margin: auto;
+}
+
+#about button:hover {
+  color: #fff;
+  outline: none;
+}
+
 .colors:hover {
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   background-size: 200% auto;
@@ -289,11 +303,10 @@ PROJECTS
 **/
 
 #project {
-  left: 10%;
   margin: 60px auto;
   margin-top: 55%;
   position: absolute;
-  width: 80%;
+  width: 100%;
 }
 
 #project h2 {
@@ -316,7 +329,9 @@ PROJECTS
 }
 
 .card {
+  left: 10%;
   transition: transform 0.2s, opacity 1.2s;
+  width: 80%;
 }
 
 .card:hover {
