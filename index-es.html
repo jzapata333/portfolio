@@ -12,15 +12,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <script src="index.js"></script>
-    <title>Javier Zapata | Creative Developer</title>
+    <title>Javier Zapata | Desarrollador Creativo</title>
 </head>
 <body>
   <div id="welcome">
     <video autoplay muted loop id="background-video">
       <source src="video/coding.MP4" type="video/mp4"/>
     </video>
-    <h1 class="welcome-text">Hello, I'm <span class="javier">Javier</span>.<br>
-        I'm a software engineer.
+    <h1 class="welcome-text">Soy <span class="javier">Javier</span>.<br>
+        Desarrollo software.
     </h1>
   </div>
 
@@ -32,19 +32,19 @@
       <div class="collapse navbar-collapse" id="navbarToggler">
         <ul class="navbar-nav ms-auto mb-2">
           <li class="nav-item">
-            <a href="index-es.html" title="Español"><img class="lang" src="img/globe.png"></a>
+            <a href="index.html" title="English"><img class="lang" src="img/globe.png"></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link font about ab" href="#about">About</a>
+            <a class="nav-link font about ab ab-es" href="#about">Sobre</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link font skill sk" href="#skills">Skills</a>
+            <a class="nav-link font skill sk sk-es" href="#skills-es">Destrezas</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link font proj" href="#project">Projects</a>
+              <a class="nav-link font proj proj-es" href="#project">Proyectos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link font cont" href="#contact">Contact</a>
+            <a class="nav-link font cont cont-es" href="#contact">Contacto</a>
           </li>
         </ul>
       </div>
@@ -52,14 +52,14 @@
   </nav>
 
   <div id="about">
-    <h2><span class="font-primary">A</span>bout</h2>
+    <h2><span class="font-primary">S</span>obre</h2>
     <!-- <div class="vocation">Web Developer | UX/UI Designer</div> -->
     <!-- <div class="skills">HTML / CSS / Javascript / React.js / Redux / Python / Django / Express.js / AWS(basics) / Docker(basics)</div> -->
-    <p>Solution-driven developer adept at building products, meeting high standards for web 
-      design and user experience. When I'm not at my computer, I like to spend my time trying new 
-      food places, playing guitar, and longboarding.</p>
-    <a class="email colors" href="mailto:javier.zapata333@gmail.com">Let's get in touch</a><span>&#128236;</span><br>
-    <a class="project-btn" href="docs/javierzapata-resume.pdf" download target="_blank"><button>Download CV<i class="bi bi-download"></i></button></a>
+    <p>Desarrollador orientado a soluciones, experto en la creación de productos, cumpliendo con altos 
+      estándares de diseño web y experiencia del usuario. Si no estoy trabajando, ando buscando que comer, 
+      tocando guitarra, o patinando.</p>
+    <a class="email colors" href="mailto:javier.zapata333@gmail.com">Pongámonos en contacto</a><span>&#128236;</span><br>
+    <a class="project-btn" href="docs/javierzapata-resume.pdf" download target="_blank"><button>Descargar CV<i class="bi bi-download"></i></button></a>
     <div class="icons">
       <a href="https://github.com/jzapata333" target="_blank"><i class="bi bi-github colors"></i></a>
       <a href="https://www.linkedin.com/in/jz333/" target="_blank"><i class="bi bi-linkedin ms-3 colors"></i></a>
@@ -69,7 +69,9 @@
   </div>
 
   <div id="skill">
-    <h2 id="skills"><span class="font-primary skills">S</span>kills</h2>
+
+    <h2 id="skills-es"><span class="font-primary skills skills-es">D</span>estrezas</h2>
+
       <div class="skills-row">
         <div class="skills-item skills-item-html">
           <img src="img/skills/html.png" alt="html-logo">
@@ -121,7 +123,7 @@
   </div>
 
   <div id="project">
-    <h2><span class="font-primary projects">P</span>rojects</h2>
+    <h2 id="project-es"><span class="font-primary projects">P</span>royectos</h2>
     <div class="card mb-3">
       <div class="row">
         <div class="col-md-4">
@@ -132,18 +134,18 @@
         </div>
         <div class="col-md-8">
           <div class="card-body">
-            <h5 class="card-title">Synamatic | Movie Reviews</h5>
+            <h5 class="card-title">Synamatic | Reseña de Películas</h5>
             <p class="card-text">
-              This is a Netflix-inspired project where you can see ratings for newly released and upcoming movies, 
-              with links included to check out the trailers to the movies you're interested in. In this project you 
-              will find a categories directory, search functionality, and the ability to save your favorites as well 
-              as movies you have yet to see.<br /><br />
+              Este proyecto es inspirado por Netflix, en el que puede ver las clasificaciones de películas recién estrenadas y próximas.
+              Incluye enlaces para ver los tráilers de las películas que te interesan. En este proyecto
+              encontrará un directorio de categorías, funciones de búsqueda y la capacidad de guardar sus favoritos también
+              como películas que todavía no ha visto.<br /><br />
 
-              This project is built using React-Redux and Django API.
+              Este proyecto utiliza React-Redux y Django API.
             </p>
-            <a href="https://symantic-frontend.herokuapp.com/" target="_blank" class="project-btn">Live App</a>
+            <a href="https://symantic-frontend.herokuapp.com/" target="_blank" class="project-btn">Aplicación en directo</a>
 
-            <a href="https://github.com/Synamatic7/symantic" target="_blank" class="project-btn">Learn More</a>
+            <a href="https://github.com/Synamatic7/symantic" target="_blank" class="project-btn">Ver más</a>
           </div>
         </div>
       </div>
@@ -161,20 +163,20 @@
           <div class="card-body">
             <h5 class="card-title">Dream House</h5>
             <p class="card-text">
-              Dream House is a Real Estate listings website where you can browse homes for sale and 
-              rent, as well as sending in your request to sell your home with Dream House. You can save homes to your 
-              favorites once you've signed up for an account, and you can log back in at any time to see your faves.<br /><br />
+              Dream House es un sitio web de anuncios de bienes raíces donde puede buscar casas para la venta y
+              alquiler, así como enviar su solicitud para vender su casa con Dream House. Puede guardar propiedades en su
+              favoritas una vez que se haya registrado para una cuenta. Tambien puedes reiniciar tu sesión para ver tus propiedades guardadas.<br /><br />
 
-              This project is built using React-Redux and Django API.
+              Este proyecto utiliza React-Redux y Django API.
             </p>
             <p class="card-login"><small>
-              Test Login Account <br>
-              Email: test@gmail.com <br>
-              Password: 1234
+              Cuenta de Prueba<br>
+              Email: test@gmail.com<br>
+              Contraseña: 1234
             </small>
             </p>
-            <a href="https://frontend-dreamhome-jz333.herokuapp.com/" target="_blank" class="project-btn">Live App</a>
-            <a href="https://github.com/jzapata333/DreamHouse" target="_blank" class="project-btn">Learn More</a>
+            <a href="https://frontend-dreamhome-jz333.herokuapp.com/" target="_blank" class="project-btn">Aplicación en directo</a>
+            <a href="https://github.com/jzapata333/DreamHouse" target="_blank" class="project-btn">Ver más</a>
           </div>
         </div>
       </div>
@@ -192,21 +194,22 @@
           <div class="card-body">
             <h5 class="card-title">Twitter Clone</h5>
             <p class="card-text">
-              This is a Twitter-based project which mimics the basic 
-              design and functionality of the official Twitter application.<br /><br /> 
-              This project is built using Django/HTML/CSS/Cloudinary.
+              Este es un proyecto basado en Twitter que imita el diseño básico
+              y la funcionalidad de la aplicación oficial de Twitter.<br /><br /> 
+
+              Este proyecto utiliza Django/HTML/CSS/Cloudinary.
             </p>
-            <a href="https://twitterclone-jz333.herokuapp.com/" target="_blank" class="project-btn">Live App</a>
-            <a href="https://github.com/jzapata333/Twitterclone" target="_blank" class="project-btn">Learn More</a>
+            <a href="https://twitterclone-jz333.herokuapp.com/" target="_blank" class="project-btn">Aplicación en directo</a>
+            <a href="https://github.com/jzapata333/Twitterclone" target="_blank" class="project-btn">Ver más</a>
           </div>
         </div>
       </div>
     </div>
   </div>
   <section id="contact">
-    <h2><span class="font-primary contact">C</span>ontact</h2>
-    <p>Have a question or want to work together? Leave your details
-      and I'll get back to you as soon as possible.
+    <h2 id="contact-es"><span class="font-primary contact">C</span>ontacto</h2>
+    <p>Tienes preguntas o quieres mi ayuda con algún proyecto o idea? Deja tus datos y te contacto 
+      lo antes posible!
     </p>
     <div class="contact-form">
       <form id="contact-form" method="post" action="https://formspree.io/f/mvolzlzo">
@@ -216,7 +219,7 @@
         <br>
         <textarea name="message" class="form shadow-none" placeholder="Message" rows="4" required></textarea>
         <br>
-        <a class="project-btn"><button type="submit" name="submit">Submit</button></a>
+        <a class="project-btn"><button type="submit" name="submit">Submitir</button></a>
       </form>
     </div>
   </section>
