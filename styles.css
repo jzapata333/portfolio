@@ -521,13 +521,17 @@ a.project-btn {
     width: 10% !important;
   }
   .tb {
-    right: 18.5% !important;
+    right: 4.55rem !important;
+    bottom: 2.4rem !important;
   }
 }
 
-/* @media screen and (max-width: ) {
-  
-} */
+@media screen and (min-width: 800px) {
+  .tb {
+    right: 4.55rem !important;
+    bottom: 2.4rem !important;
+  }
+}
 
 /**
 
